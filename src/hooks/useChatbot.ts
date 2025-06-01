@@ -8,7 +8,7 @@ interface Message {
 
 const useChatbot = () => {
   const [messages, setMessages] = useState<Message[]>([]);
-  const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+ 
 
 
   const delay = (ms: number) =>
