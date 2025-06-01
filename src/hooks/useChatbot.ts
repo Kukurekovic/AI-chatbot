@@ -22,11 +22,11 @@ const useChatbot = () => {
 
     try {
       const response = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY`, // Gemini API endpoint
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBg2u0pAx2XxKF-nWshKKyr2N9d6enpAMc`, // Gemini API endpoint
         {
           contents: [
             {
-              parts: [{ text: message }],
+              parts: [{ text: message }], //sending the user's message in the expected format
             },
           ],
         },
