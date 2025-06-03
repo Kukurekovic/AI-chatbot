@@ -26,7 +26,7 @@ const ChatComponent: React.FunctionComponent = () => {
             key={index}
             className={`p-3 rounded-lg max-w-xs ${
               msg.sender === "user"
-                ? "bg-blue-500 text-white ml-auto"
+                ? "bg-green-500 text-white ml-auto"
                 : "bg-gray-300 text-gray-800"
             }`}
           >
